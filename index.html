@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div data-poke-card class="poke-card">
+        <div id="test">
+            <div id="cristal">
+                <div id="reflejo"></div>
+            </div>          
+        </div>
+        <div id="little-light-red"></div>
+        <div id="little-light-yellow"></div>
+        <div id="little-light-green"></div>
+        <div data-poke-img-container class="img-container">
+            <img data-poke-img class="poke-img" src="./pokepng.png"/>
+        </div>
+        <div data-poke-name>Pokedex
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-types class="poke-types"></div>
+        <form action="" onsubmit="searchPokemon(event)">
+            <input id="search-pokemon" type="text" name="pokemon" autocomplete="off">
+            <input id="search-btn" type="submit" value="Go" onsubmit="searchPokemon(event)">
+        </form>
+        <div id="red-large-btn"></div>
+        <div id="blue-large-btn"></div>
+
+
+        <div id="horizontal-btn"></div>
+        <div id="vertical-btn"></div>
+        <section id="poke-stats-container">
+        <div data-poke-stats class="poke-stats"></div>
+        </section>
+    </div>
+    <div id="right-section">
+        <div id="green-screen">
+        <div data-poke-moves class="poke-moves"></div>
+    </div>
+        <div class="square-buttons-container">
+            <div class="blue-squares-container">
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+              <div class="blue-square"></div>
+            </div>
+          </div>
+
+          <div class="white-buttons-container">
+            <div class="white-square"></div>
+            <div class="white-square"></div>
+            </div>
+
+            <div id="big-yellow-light"></div>
+    </div>
+    
+</body>
+</html>
